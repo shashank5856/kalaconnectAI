@@ -40,7 +40,7 @@ Ultimately, KalaConnect AI lowers the barriers for artisans to market their craf
 - Backend calls Vertex AI Gemini Vision to analyze and generate text.
 - Returns a JSON object with `story`, `caption`, and `cultural_context`.
 - Clean, mobile-friendly React frontend with upload box, input fields, generate button, loading indicator, and results area.
-- Deployable frontend (Firebase Hosting) and backend (Google Cloud Run).
+- Deployable frontend (Firebase Hosting) ..
 
 ---
 
@@ -59,16 +59,11 @@ Ultimately, KalaConnect AI lowers the barriers for artisans to market their craf
    - Processes image and keywords.
    - Generates outputs in the requested language.
 
-4. **Hosting**
-   - **Frontend:** Firebase Hosting
-   - **Backend:** Google Cloud Run (containerized)
-
 ---
 
 ## Tech stack
 
 - **Frontend:** React (Vite), Tailwind (optional)
-- **Backend:** Node.js, Express, Multer
 - **AI:** Google Cloud Vertex AI (Gemini Vision)
 - **Deploy:** Firebase Hosting, Google Cloud Run
 - **Container:** Docker
